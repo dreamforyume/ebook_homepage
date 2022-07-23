@@ -1,6 +1,7 @@
 @import 'status-bar.css';
 @import 'today-header.css';
 @import 'top-header.css';
+@import 'popular-header.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {
@@ -10,7 +11,7 @@
 body {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: 200vh;
 	width: 100vw;
 	position: relative;
 }
