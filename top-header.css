@@ -1,0 +1,25 @@
+#top-header {
+	font-size: 20px;
+	padding-left: 25px;
+	margin-top: 80px;
+	font-weight: 600;
+	margin-bottom: 120px;
+}
+
+.top-header {
+	position: absolute;
+	display: flex;
+	padding-left: 25px;
+}
+.top-header__column {
+	top: 350px;
+	position: relative;
+	display: flex;
+}
+
+.top-header__column img {
+	width: 60px;
+	height: 90px;
+	border-radius: 10px;
+	margin-right: 10px;
+}

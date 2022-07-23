@@ -1,4 +1,4 @@
-.today-header--header {
+#today-header {
 	font-size: 20px;
 	padding-left: 25px;
 	margin-top: 30px;
@@ -19,15 +19,16 @@
 	justify-content: space-evenly;
 }
 
+.today-header img {
+	height: 120px;
+	width: 90px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
 .today-header__column:nth-child(2) {
 	display: flex;
-	margin-top: -15px;
-}
-.today-header img {
-	height: 160px;
-	width: 120px;
-	border-radius: 10px;
-	margin-right: 40px;
+	margin-top: -5px;
 }
 
 .today-header__title {
